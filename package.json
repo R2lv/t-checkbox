@@ -1,8 +1,8 @@
 {
   "name": "t-checkbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue checkbox wrapper",
-  "main": "dist/js/index.js",
+  "main": "dist/js/checkbox.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
