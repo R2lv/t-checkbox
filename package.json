@@ -1,0 +1,28 @@
+{
+  "name": "t-checkbox",
+  "version": "0.1.0",
+  "description": "Vue checkbox wrapper",
+  "main": "dist/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TabatadzeMe/t-checkbox.git"
+  },
+  "author": "Giorgi Tabatadze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TabatadzeMe/t-checkbox/issues"
+  },
+  "homepage": "https://github.com/TabatadzeMe/t-checkbox#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^2.0.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.9"
+  }
+}
