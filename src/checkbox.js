@@ -13,7 +13,7 @@
   }
 }(typeof self !== 'undefined' ? self : this, function () {
     return {
-        template: "<span class='t-checkbox'><input :id='cId' type='checkbox' value='test' @change='ch' v-model='c'><span></span></span>",
+        template: "<span class='t-checkbox'><input :id='cId' type='checkbox' v-on='$listeners' value='test' @change='ch' v-model='c'><span></span></span>",
         data: function() {
             return {
                 c: null

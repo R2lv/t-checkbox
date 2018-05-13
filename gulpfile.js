@@ -1,6 +1,6 @@
 const gulp = require("gulp"),
-    uglify = require("gulp-uglify");
-    minifyCss = require("gulp-csso")
+    uglify = require("gulp-uglify"),
+    minifyCss = require("gulp-csso"),
     pump = require("pump");
 
 
@@ -10,7 +10,7 @@ gulp.task("js", function(cb) {
         uglify(),
         gulp.dest("dist/js/")
     ],cb);
-})
+});
 gulp.task("css", function(cb) {
     pump([
         gulp.src("src/*.css"),
